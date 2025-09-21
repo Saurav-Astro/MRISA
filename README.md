@@ -1,2 +1,1 @@
-# MRISA
-Manav Rachna InfoSec Army
+MRISA
