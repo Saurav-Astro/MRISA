@@ -20,9 +20,9 @@ const selectiveImages: ImageItem[] = [
 ];
 
 const galleryData: GalleryCategory[] = [
-  { id: 'cat_events', title: 'Event Highlights', imageCount: 100, path: '/event_photos/' },
+  { id: 'cat_events', title: 'Event Highlights', imageCount: 50, path: '/event_photos/' },
   // CORRECTION: The path has been fixed to correctly load team photos.
-  { id: 'cat_team', title: 'Event Highlights', imageCount: 100, path: '/team_photos/' },
+  { id: 'cat_team', title: 'Event Highlights', imageCount: 50, path: '/team_photos/' },
 ];
 
 const generateImages = (category: GalleryCategory): ImageItem[] =>
@@ -186,5 +186,6 @@ const Gallery = () => {
         </div>
     );
 };
+
 
 export default Gallery;
