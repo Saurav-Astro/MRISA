@@ -9,7 +9,8 @@ const navItems = [
   { href: "/events", label: "Events" },
   { href: "/winners", label: "Winners" },
   { href: "/team", label: "Team" },
-  { href: "/contact", label: "Contact" },
+  { href: "/gallery", label: "Gallery" },
+  { href: "/contact", label: "Contact" }
 ];
 
 const mobileMenuVariants = {
